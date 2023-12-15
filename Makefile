@@ -66,7 +66,7 @@ NAME		= cub3d
 OBJS		= $(SRCS:.c=.o)
 
 INC			= -Iinc -I$(MLX_FOLDER)
-LIBS_Linux	= -L$(MLX_FOLDER) -lm -lmlx -lXext -lX11 -lm -lbsd -Llib/libft -lft -Llib -lcolor
+LIBS_Linux	= -L$(MLX_FOLDER) -lm -lmlx -lXext -lX11 -lm -lbsd -Llib/libft -lft -Llib
 LIBS_Darwin	= -lmlx -framework OpenGL -framework AppKit -Llib/libft -lft
 CFLAGS		= $(INC) -Wall -Wextra -Werror -g3 -fsanitize=address
 
